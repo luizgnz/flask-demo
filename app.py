@@ -12,4 +12,4 @@ def hola_mundo():
 # Verifica si este script se está ejecutando directamente
 # Si es así, inicia el servidor de Flask
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0", port=80, debug=True)
